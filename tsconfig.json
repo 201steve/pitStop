@@ -62,15 +62,9 @@
     // 'this' 표현식의 암시적 'any' 타입 사용을 금지합니다.
     "baseUrl": "src",
     "paths": {
-      "@/*": [
-        "*"
-      ],
-      "@pages/*": [
-        "pages/*"
-      ],
-      "@components/*": [
-        "components/*"
-      ]
+      "@/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@pages/*": ["src/pages/*"]
     }
   },
   "include": [
